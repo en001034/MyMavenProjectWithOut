@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="regg1">
+		<classes>
+			<class name="seleniumTests.simpleTest"></class>
+		</classes>
+	</test>
+</suite>
