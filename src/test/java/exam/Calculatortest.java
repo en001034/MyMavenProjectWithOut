@@ -38,6 +38,15 @@ public class Calculatortest {
 	
 	}
 
+	@Test
+	public void testdivision() {
+		
+		int expres=3;
+		
+		int actres=Calculator.divide(100, 30);
+		assertEquals(expres, actres);
+	
+	}
 
 
 }

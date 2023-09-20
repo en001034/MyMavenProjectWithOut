@@ -19,5 +19,11 @@ public class Calculator {
 		int result=i*j;
 		return result;
 	}
+ 
+ public static int divide(int i, int j) {
+		
+		int result=i/j;
+		return result;
+	}
 
 }
