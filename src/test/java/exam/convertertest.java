@@ -25,5 +25,15 @@ public class convertertest {
 		int act =converter.cTof(temp);
 		assertEquals(exp,act);
 	}
+	
+	@Test
+	public void testFarToc() {
+		int temp=122;
+		int exp=50;
+		
+		int act =converter.fToc(temp);
+		assertEquals(exp,act);
+	}
+
 
 }
