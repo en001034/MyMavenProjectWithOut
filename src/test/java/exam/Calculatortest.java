@@ -48,5 +48,14 @@ public class Calculatortest {
 	
 	}
 
+	@Test
+	public void testpercentage() {
+		
+		int expres=98;
+		
+		int actres=Calculator.divide(90, 10);
+		assertEquals(expres, actres);
+	
+	}
 
 }
